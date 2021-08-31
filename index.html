@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<!-- Designined by CodingLab | www.youtube.com/codinglabyt -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <!--<title> Responsiive Admin Dashboard | CodingLab </title>-->
+    <link rel="stylesheet" href="style.css">
+    <!-- Boxicons CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <div class="sidebar">
+    <div class="logo-details">
+      <i class='bx bxl-c-plus-plus'></i>
+      <span class="logo_name">Aarush Consulting</span>
+    </div>
+      <ul class="nav-links">
+        <li>
+          <a href="#" class="active">
+            <i class='bx bx-grid-alt' ></i>
+            <span class="links_name">Dashboard</span>
+          </a>
+        </li>
+        <li>
+          <a href="#topic">
+            <i class='bx bx-box' ></i>
+            <span class="links_name">STUDENTS</span>
+          </a>
+        </li>
+        <li>
+          <a href="#deatils">
+            <i class='bx bx-list-ul' ></i>
+            <span class="links_name">DETAILS</span>
+          </a>
+        </li>
+        <li>
+          <a href="#MANAGING STAFF">
+            <i class='bx bx-pie-chart-alt-2' ></i>
+            <span class="links_name">STUDENT APPLICATION</span>
+          </a>
+        </li>
+        <li>
+          <a href="#COMISSION">
+            <i class='bx bx-coin-stack' ></i>
+            <span class="links_name">COMISSION STRUCTURE</span>
+          </a>
+        </li>
+        <li>
+          <a href="#MANAGING STAFF">
+            <i class='bx bx-book-alt' ></i>
+            <span class="links_name">MANAGING STAFF</span>
+          </a>
+        </li>
+        <li>
+          <a href="#COMISSION">
+            <i class='bx bx-user' ></i>
+            <span class="links_name">Team</span>
+          </a>
+        </li>
+        
+      </ul>
+  </div>
+  <section class="home-section">
+    <nav>
+      <div class="sidebar-button">
+        <i class='bx bx-menu sidebarBtn'></i>
+        <span class="dashboard">Dashboard</span>
+      </div>
+      <div class="search-box">
+        <input type="text" placeholder="Search...">
+        <i class='bx bx-search' ></i>
+      </div>
+      <div class="profile-details">
+        <!--<img src="images/profile.jpg" alt="">-->
+        <span class="admin_name">VINOD NAIR</span>
+        <i class='bx bx-chevron-down' ></i>
+      </div>
+    </nav>
+
+    <div class="home-content">
+      <div class="overview-boxes">
+        <div class="box">
+          <div class="right-side">
+            <div class="box-topic">POTENTIAL COMMITION</div>
+            <div class="number">20,000</div>
+            <div class="indicator">
+              <i class='bx bx-up-arrow-alt'></i>
+              <span class="text">ABCD</span>
+            </div>
+          </div>
+          <i class='bx bx-cart-alt cart'></i>
+        </div>
+      
+        <div class="box">
+          <div class="right-side">
+            <div class="box-topic">EARNED</div>
+            <div class="number">₹1,00,000</div>
+            <div class="indicator">
+              <i class='bx bx-up-arrow-alt'></i>
+              <span class="text">THIS MONTH</span>
+            </div>
+          </div>
+          <i class='bx bx-cart cart three' ></i>
+        </div>
+        <div class="box">
+          <div class="right-side">
+            <div class="box-topic">WITHDRAWN</div>
+            <div class="number">₹20,000</div>
+            <div class="indicator">
+              <i class='bx bx-up-arrow-alt'></i>
+              <span class="text">THIS MONTH </span>
+            </div>
+          </div>
+          <i class='bx bxs-cart-download cart four' ></i>
+        </div>
+      </div>
+
+      <div class="sales-boxes">
+        <div class="recent-sales box">
+          <div class="title">TEAM REPORT</div>
+          <div class="sales-details">
+           
+            <ul class="details">
+            <li class="topic" id="topic">TEAM MEMBER</li>
+            <li><a href="#">Alex Doe</a></li>
+            <li><a href="#">David Mart</a></li>
+            <li><a href="#">Roe Parter</a></li>
+            <li><a href="#">Diana Penty</a></li>
+            <li><a href="#">Martin Paw</a></li>
+            <li><a href="#">Doe Alex</a></li>
+            <li><a href="#">Aiana Lexa</a></li>
+            <li><a href="#">Rexel Mags</a></li>
+             <li><a href="#">Tiana Loths</a></li>
+          </ul>
+          <ul class="details">
+            <li class="topic" id="details">ASSIGNED</li>
+            <li><a href="#">VINOD NAIR</a></li>
+            <li><a href="#">VINOD NAIR</a></li>
+            <li><a href="#">VINOD NAIR</a></li>
+            <li><a href="#">VINOD NAIR</a></li>
+            <li><a href="#">VINOD NAIR</a></li>
+            <li><a href="#">VINOD NAIR</a></li>
+            <li><a href="#">VINOD NAIR</a></li>
+             <li><a href="#">VINOD NAIR</a></li>
+            <li><a href="#">VINOD NAIR</a></li>
+          </ul>
+         
+          <ul class="details">
+            <li class="topic" id="COMISSION">TUTION FEE PAID</li>
+            <li><a href="#">₹50,000</a></li>
+            <li><a href="#">₹50,000</a></li>
+            <li><a href="#">₹50,000</a></li>
+            <li><a href="#">₹50,000</a></li>
+            <li><a href="#">₹50,000</a></li>
+            <li><a href="#">₹50,000</a></li>
+            <li><a href="#">₹50,000</a></li>
+             <li><a href="#">₹50,000</a></li>
+             <li><a href="#">₹50,000</a></li>
+          </ul>
+          <ul class="details">
+            <li class="topic">CONVERSION</li>
+            <li><a href="#">20</a></li>
+            <li><a href="#">20</a></li>
+            <li><a href="#">20</a></li>
+            <li><a href="#">20</a></li>
+            <li><a href="#">20</a></li>
+            <li><a href="#">20</a></li>
+            <li><a href="#">20</a></li>
+            <li><a href="#">20</a></li>
+            <li><a href="#">20</a></li>
+            
+          </ul>
+          </div>
+          <div class="button">
+            <a href="#">See All</a>
+          </div>
+        </div>
+        <div class="top-sales box">
+          <div class="title" id="MANAGING STAFF">APPLICATION STATUS</div>
+          <ul class="top-sales-details">
+            <li>
+            <a href="#">
+              <!--<img src="images/sunglasses.jpg" alt="">-->
+              <span class="product">ALEX DOE</span>
+            </a>
+            <span class="price">PENDING</span>
+          </li>
+          <li>
+            <a href="#">
+               <!--<img src="images/jeans.jpg" alt="">-->
+              <span class="product">DAVID MART </span>
+            </a>
+            <span class="price">SENT</span>
+          </li>
+          <li>
+            <a href="#">
+             <!-- <img src="images/nike.jpg" alt="">-->
+              <span class="product">ROY PORTER</span>
+            </a>
+            <span class="price">completed</span>
+          </li>
+          <li>
+            <a href="#">
+              <!--<img src="images/scarves.jpg" alt="">-->
+              <span class="product">Diana penty</span>
+            </a>
+            <span class="price">Pending</span>
+          </li>
+          <li>
+            <a href="#">
+              <!--<img src="images/blueBag.jpg" alt="">-->
+              <span class="product">Martin paw</span>
+            </a>
+            <span class="price">completed</span>
+          </li>
+          <li>
+            <a href="#">
+              <!--<img src="images/bag.jpg" alt="">-->
+              <span class="product">Doe Alex</span>
+            </a>
+            <span class="price">Completed</span>
+          <li>
+            <a href="#">
+              <!--<img src="images/addidas.jpg" alt="">-->
+              <span class="product">Aiana Lexa</span>
+            </a>
+            <span class="price">Completed</span>
+          </li>
+<li>
+            <a href="#">
+             <!--<img src="images/shirt.jpg" alt="">-->
+              <span class="product">Rexal mags</span>
+            </a>
+            <!!span class="price">pending/span>!!>
+          </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script>
+   let sidebar = document.querySelector(".sidebar");
+let sidebarBtn = document.querySelector(".sidebarBtn");
+sidebarBtn.onclick = function() {
+  sidebar.classList.toggle("active");
+  if(sidebar.classList.contains("active")){
+  sidebarBtn.classList.replace("bx-menu" ,"bx-menu-alt-right");
+}else
+  sidebarBtn.classList.replace("bx-menu-alt-right", "bx-menu");
+}
+ </script>
+
+</body>
+</html>
+
